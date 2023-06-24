@@ -39,7 +39,7 @@ choices = [rock, paper, scissors]
 
 #Recieve user input and print their option
 print(choices[choice])
-#Randomly generate for the computer option and print
+#Randomly generate the computer option and print
 computer_choice = random.randint(0,2)
 print(choices[computer_choice])
 
